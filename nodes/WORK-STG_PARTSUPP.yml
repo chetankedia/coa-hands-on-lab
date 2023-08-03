@@ -1,5 +1,5 @@
 steps:
-  STG_PARTSUPP-5df4774c-b277-4efc-8808-6c25b0a4b0c1:
+  STG_PARTSUPP-43cd3d5c-7a39-4a8d-a5d7-2ab8bd157446:
     operation:
       config:
         insertStrategy: INSERT
@@ -11,14 +11,14 @@ steps:
       deployEnabled: true
       description: Partsupp data as defined by TPC-H
       isMultisource: false
-      locationName: SAMPLE
+      locationName: WORK
       materializationType: table
       metadata:
         appliedNodeTests: []
         columns:
           - columnReference:
-              columnCounter: 016c1a3f-c345-4bf8-aa95-5cd7c97800af
-              stepCounter: 5df4774c-b277-4efc-8808-6c25b0a4b0c1
+              columnCounter: 12e60abc-f4c3-4aab-a294-11d5660e656f
+              stepCounter: 43cd3d5c-7a39-4a8d-a5d7-2ab8bd157446
             dataType: NUMBER(38,0)
             description: ""
             hashColumns: []
@@ -31,8 +31,8 @@ steps:
                     stepCounter: c8c511ca-ec4b-4df9-9bae-35921232e80b
                 transform: ""
           - columnReference:
-              columnCounter: 52b87056-3c13-402b-91b9-0f330749079f
-              stepCounter: 5df4774c-b277-4efc-8808-6c25b0a4b0c1
+              columnCounter: 3a9795e9-e0ca-47e0-835f-3a00e378e9ad
+              stepCounter: 43cd3d5c-7a39-4a8d-a5d7-2ab8bd157446
             dataType: NUMBER(38,0)
             description: ""
             hashColumns: []
@@ -45,8 +45,8 @@ steps:
                     stepCounter: c8c511ca-ec4b-4df9-9bae-35921232e80b
                 transform: ""
           - columnReference:
-              columnCounter: 6ab7814c-8f3c-4248-8f2d-c4002e2e4544
-              stepCounter: 5df4774c-b277-4efc-8808-6c25b0a4b0c1
+              columnCounter: c4098a17-9806-4d54-b326-e9af79aa19c0
+              stepCounter: 43cd3d5c-7a39-4a8d-a5d7-2ab8bd157446
             dataType: NUMBER(38,0)
             description: ""
             hashColumns: []
@@ -59,8 +59,8 @@ steps:
                     stepCounter: c8c511ca-ec4b-4df9-9bae-35921232e80b
                 transform: ""
           - columnReference:
-              columnCounter: 0c82d242-c497-45b3-8689-a401040f8147
-              stepCounter: 5df4774c-b277-4efc-8808-6c25b0a4b0c1
+              columnCounter: ca3c4dfb-98ce-425c-a0f5-91aed286eeea
+              stepCounter: 43cd3d5c-7a39-4a8d-a5d7-2ab8bd157446
             dataType: NUMBER(12,2)
             description: ""
             hashColumns: []
@@ -73,8 +73,8 @@ steps:
                     stepCounter: c8c511ca-ec4b-4df9-9bae-35921232e80b
                 transform: ""
           - columnReference:
-              columnCounter: 28265ed2-906a-4625-b56f-f9e9f511502c
-              stepCounter: 5df4774c-b277-4efc-8808-6c25b0a4b0c1
+              columnCounter: 45b5e394-6638-4f66-94ca-39c3d0788e9d
+              stepCounter: 43cd3d5c-7a39-4a8d-a5d7-2ab8bd157446
             dataType: VARCHAR(199)
             description: ""
             hashColumns: []
@@ -103,4 +103,4 @@ steps:
       schema: ""
       sqlType: Stage
       type: sql
-    stepCounter: 5df4774c-b277-4efc-8808-6c25b0a4b0c1
+    stepCounter: 43cd3d5c-7a39-4a8d-a5d7-2ab8bd157446

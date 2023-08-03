@@ -1,5 +1,5 @@
 steps:
-  STG_REGION-fce2de2d-e86e-44bf-8894-892bc2c5150e:
+  STG_REGION-37a3ab92-13e2-4875-9e14-e7312fb21441:
     operation:
       config:
         insertStrategy: INSERT
@@ -11,14 +11,14 @@ steps:
       deployEnabled: true
       description: Region data as defined by TPC-H
       isMultisource: false
-      locationName: SAMPLE
+      locationName: WORK
       materializationType: table
       metadata:
         appliedNodeTests: []
         columns:
           - columnReference:
-              columnCounter: 874ea661-abed-459c-8efb-17ebfb911f21
-              stepCounter: fce2de2d-e86e-44bf-8894-892bc2c5150e
+              columnCounter: fb29f090-8259-4303-8c22-2add13533ef1
+              stepCounter: 37a3ab92-13e2-4875-9e14-e7312fb21441
             dataType: NUMBER(38,0)
             description: ""
             hashColumns: []
@@ -31,8 +31,8 @@ steps:
                     stepCounter: 0d41655f-e455-4e34-a703-4f0870252039
                 transform: ""
           - columnReference:
-              columnCounter: df3ff4c7-ac82-42b1-a2e1-40addffd7c96
-              stepCounter: fce2de2d-e86e-44bf-8894-892bc2c5150e
+              columnCounter: 69c3b257-8062-4997-8180-f6103c7c7d7f
+              stepCounter: 37a3ab92-13e2-4875-9e14-e7312fb21441
             dataType: VARCHAR(25)
             description: ""
             hashColumns: []
@@ -45,8 +45,8 @@ steps:
                     stepCounter: 0d41655f-e455-4e34-a703-4f0870252039
                 transform: ""
           - columnReference:
-              columnCounter: 417d7acc-c6c1-4f42-be46-e2307125f77a
-              stepCounter: fce2de2d-e86e-44bf-8894-892bc2c5150e
+              columnCounter: 5fd3086c-c4d8-4be2-a97d-6e9b1ea646e8
+              stepCounter: 37a3ab92-13e2-4875-9e14-e7312fb21441
             dataType: VARCHAR(152)
             description: ""
             hashColumns: []
@@ -75,4 +75,4 @@ steps:
       schema: ""
       sqlType: Stage
       type: sql
-    stepCounter: fce2de2d-e86e-44bf-8894-892bc2c5150e
+    stepCounter: 37a3ab92-13e2-4875-9e14-e7312fb21441

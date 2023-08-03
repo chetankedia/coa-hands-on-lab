@@ -1,5 +1,5 @@
 steps:
-  STG_SUPPLIER-48df32bc-6c3d-4584-b945-189a43093d79:
+  STG_SUPPLIER-52df3dd9-4d02-4c0e-844d-be744eb5e0ac:
     operation:
       config:
         insertStrategy: INSERT
@@ -11,14 +11,14 @@ steps:
       deployEnabled: true
       description: Supplier data as defined by TPC-H
       isMultisource: false
-      locationName: SAMPLE
+      locationName: WORK
       materializationType: table
       metadata:
         appliedNodeTests: []
         columns:
           - columnReference:
-              columnCounter: 59a35a46-5af0-418d-9c69-8c2c1f403805
-              stepCounter: 48df32bc-6c3d-4584-b945-189a43093d79
+              columnCounter: 0766d0ae-7f6a-40ce-967e-de6a8dc244b2
+              stepCounter: 52df3dd9-4d02-4c0e-844d-be744eb5e0ac
             dataType: NUMBER(38,0)
             description: ""
             hashColumns: []
@@ -31,8 +31,8 @@ steps:
                     stepCounter: 5baf59c8-3890-41ed-959c-679a5a9a6341
                 transform: ""
           - columnReference:
-              columnCounter: b69ac2a6-17b7-4104-b560-a87a0eaa9deb
-              stepCounter: 48df32bc-6c3d-4584-b945-189a43093d79
+              columnCounter: a7dbedec-bb49-4ebe-a485-845034d70b26
+              stepCounter: 52df3dd9-4d02-4c0e-844d-be744eb5e0ac
             dataType: VARCHAR(25)
             description: ""
             hashColumns: []
@@ -45,8 +45,8 @@ steps:
                     stepCounter: 5baf59c8-3890-41ed-959c-679a5a9a6341
                 transform: ""
           - columnReference:
-              columnCounter: a0b95dec-a520-4d06-bf4a-695190e396a5
-              stepCounter: 48df32bc-6c3d-4584-b945-189a43093d79
+              columnCounter: 39e1f9ff-b165-48c2-8fbb-d70c31bd150d
+              stepCounter: 52df3dd9-4d02-4c0e-844d-be744eb5e0ac
             dataType: VARCHAR(40)
             description: ""
             hashColumns: []
@@ -59,8 +59,8 @@ steps:
                     stepCounter: 5baf59c8-3890-41ed-959c-679a5a9a6341
                 transform: ""
           - columnReference:
-              columnCounter: 8b008a6b-84ab-4758-9a59-e72fc5d210ec
-              stepCounter: 48df32bc-6c3d-4584-b945-189a43093d79
+              columnCounter: f4500b7b-6e92-4d7d-aa95-fc3457857169
+              stepCounter: 52df3dd9-4d02-4c0e-844d-be744eb5e0ac
             dataType: NUMBER(38,0)
             description: ""
             hashColumns: []
@@ -73,8 +73,8 @@ steps:
                     stepCounter: 5baf59c8-3890-41ed-959c-679a5a9a6341
                 transform: ""
           - columnReference:
-              columnCounter: 9feb28b8-ea3c-4e78-aeb4-e469887c2418
-              stepCounter: 48df32bc-6c3d-4584-b945-189a43093d79
+              columnCounter: a0bc881e-8e02-47d4-967b-bfddd2f3a5a1
+              stepCounter: 52df3dd9-4d02-4c0e-844d-be744eb5e0ac
             dataType: VARCHAR(15)
             description: ""
             hashColumns: []
@@ -87,8 +87,8 @@ steps:
                     stepCounter: 5baf59c8-3890-41ed-959c-679a5a9a6341
                 transform: ""
           - columnReference:
-              columnCounter: 6e4108ea-bc1a-435f-9305-afc94758fb55
-              stepCounter: 48df32bc-6c3d-4584-b945-189a43093d79
+              columnCounter: f17b5001-c9f4-4c7d-8801-bcfb63a698cf
+              stepCounter: 52df3dd9-4d02-4c0e-844d-be744eb5e0ac
             dataType: NUMBER(12,2)
             description: ""
             hashColumns: []
@@ -101,8 +101,8 @@ steps:
                     stepCounter: 5baf59c8-3890-41ed-959c-679a5a9a6341
                 transform: ""
           - columnReference:
-              columnCounter: 631faa4d-da93-4cfd-b3a6-665f5deff376
-              stepCounter: 48df32bc-6c3d-4584-b945-189a43093d79
+              columnCounter: 05914497-56e2-498a-a370-8e735e68ed74
+              stepCounter: 52df3dd9-4d02-4c0e-844d-be744eb5e0ac
             dataType: VARCHAR(101)
             description: ""
             hashColumns: []
@@ -131,4 +131,4 @@ steps:
       schema: ""
       sqlType: Stage
       type: sql
-    stepCounter: 48df32bc-6c3d-4584-b945-189a43093d79
+    stepCounter: 52df3dd9-4d02-4c0e-844d-be744eb5e0ac

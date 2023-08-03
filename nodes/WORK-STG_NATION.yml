@@ -1,5 +1,5 @@
 steps:
-  STG_NATION-5c7ba8eb-e7dc-4830-b335-f6c8060ef519:
+  STG_NATION-cf7328b7-a770-47b3-abd6-7be25125089c:
     operation:
       config:
         insertStrategy: INSERT
@@ -11,14 +11,14 @@ steps:
       deployEnabled: true
       description: Nation data as defined by TPC-H
       isMultisource: false
-      locationName: SAMPLE
+      locationName: WORK
       materializationType: table
       metadata:
         appliedNodeTests: []
         columns:
           - columnReference:
-              columnCounter: 02746195-30c1-4dff-833e-27b4395b24ee
-              stepCounter: 5c7ba8eb-e7dc-4830-b335-f6c8060ef519
+              columnCounter: 0e914b56-b1bb-4563-8938-2cde2278337b
+              stepCounter: cf7328b7-a770-47b3-abd6-7be25125089c
             dataType: NUMBER(38,0)
             description: ""
             hashColumns: []
@@ -31,8 +31,8 @@ steps:
                     stepCounter: 4b152ed4-3fd5-4d13-b083-17bf18215b59
                 transform: ""
           - columnReference:
-              columnCounter: 6c65323f-9d65-4589-827b-db2af9a6af63
-              stepCounter: 5c7ba8eb-e7dc-4830-b335-f6c8060ef519
+              columnCounter: 6076cff8-f46d-41a9-ad6e-e2798f9dedb6
+              stepCounter: cf7328b7-a770-47b3-abd6-7be25125089c
             dataType: VARCHAR(25)
             description: ""
             hashColumns: []
@@ -45,8 +45,8 @@ steps:
                     stepCounter: 4b152ed4-3fd5-4d13-b083-17bf18215b59
                 transform: ""
           - columnReference:
-              columnCounter: 83d5d2fa-9fcf-43c2-bb00-2df2cabcd065
-              stepCounter: 5c7ba8eb-e7dc-4830-b335-f6c8060ef519
+              columnCounter: 3e0575c3-ef62-4416-ae61-282224f836a8
+              stepCounter: cf7328b7-a770-47b3-abd6-7be25125089c
             dataType: NUMBER(38,0)
             description: ""
             hashColumns: []
@@ -59,8 +59,8 @@ steps:
                     stepCounter: 4b152ed4-3fd5-4d13-b083-17bf18215b59
                 transform: ""
           - columnReference:
-              columnCounter: 113fdff1-eeea-42ad-a4cb-c0987cb8d19e
-              stepCounter: 5c7ba8eb-e7dc-4830-b335-f6c8060ef519
+              columnCounter: a93dab6a-e3ea-442b-95dd-283dfdccd14f
+              stepCounter: cf7328b7-a770-47b3-abd6-7be25125089c
             dataType: VARCHAR(152)
             description: ""
             hashColumns: []
@@ -89,4 +89,4 @@ steps:
       schema: ""
       sqlType: Stage
       type: sql
-    stepCounter: 5c7ba8eb-e7dc-4830-b335-f6c8060ef519
+    stepCounter: cf7328b7-a770-47b3-abd6-7be25125089c
